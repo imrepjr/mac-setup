@@ -31,11 +31,23 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
+## Setup p10k
+
+Wizard options:
+
+1. nerdfont-complete + powerline,
+2. small icons,
+3. ascii,
+4. lean,
+5. 24h time,
+6. 1 line,
+7. compact,
+8. concise,
+9. transient_prompt,
+10. instant_prompt=verbose.
+
 ## Preferences
 
 - .gitconfig
-- .p10k.zsh
-- .zshrc
-  Consider what's better: documenting lines to add to `.zshrc` or having a copy of it in the repo. Likely the former!
 - iTerm2 profile
 - Terminal profile
